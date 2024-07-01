@@ -1243,7 +1243,8 @@ html[light-mode="dark"] {
 }
 
 .dark-theme .navbar-nav .nav-link,
-.dark-theme .navbar-brand {
+.dark-theme .navbar-brand,
+.dark-theme .content span {
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -1259,6 +1260,10 @@ color: #ffffff !important;
 
 .dark-theme  .section__pic-container{
   background-color: #0b0b0b;
+}
+
+.dark-theme .content span {
+  color: red !important;
 }
 
 
@@ -1588,4 +1593,18 @@ a.socialicon {
 .socialicon.kaggle:after {
   background-color: #41aff3;
   box-shadow: var(--kaggle);
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin: 5px 0;
+  height: 10px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #bb86fc;
+  border-radius: 5px;
 }
