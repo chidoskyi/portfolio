@@ -333,6 +333,7 @@ section {
 
 .btn-color-1:hover {
   background: rgb(0, 0, 0);
+  color: #bb86fc;
 }
 
 .btn-color-2 {
@@ -400,6 +401,7 @@ section {
 
 #experience {
   position: relative;
+  /* height: 80vh; */
 }
 
 .experience-sub-title {
@@ -439,6 +441,7 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-bottom: 80px;
 }
 
 .color-container {
@@ -1262,7 +1265,7 @@ color: #ffffff !important;
   background-color: #0b0b0b;
 }
 
-.dark-theme .content span {
+.dark-theme .btn-container button {
   color: red !important;
 }
 
